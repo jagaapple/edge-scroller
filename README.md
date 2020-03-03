@@ -1,18 +1,18 @@
-<h1 align="center">template-js</h1>
+<h1 align="center">edge-scroller</h1>
 
 <h4 align="center">📋 A template repository for JavaScript. A template repository for JavaScript. 📋</h4>
 
 ```ts
-import { returnOne } from "template-js";
+import { returnOne } from "edge-scroller";
 
 returnOne(); // 1
 ```
 
 <div align="center">
-<a href="https://www.npmjs.com/package/template-js"><img src="https://img.shields.io/npm/v/template-js.svg" alt="npm"></a>
-<a href="https://circleci.com/gh/jagaapple/template-js"><img src="https://img.shields.io/circleci/project/github/jagaapple/template-js/master.svg" alt="CircleCI"></a>
-<a href="https://codecov.io/gh/jagaapple/template-js"><img src="https://img.shields.io/codecov/c/github/jagaapple/template-js.svg"></a>
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/jagaapple/template-js.svg" alt="license"></a>
+<a href="https://www.npmjs.com/package/edge-scroller"><img src="https://img.shields.io/npm/v/edge-scroller.svg" alt="npm"></a>
+<a href="https://circleci.com/gh/jagaapple/edge-scroller"><img src="https://img.shields.io/circleci/project/github/jagaapple/edge-scroller/master.svg" alt="CircleCI"></a>
+<a href="https://codecov.io/gh/jagaapple/edge-scroller"><img src="https://img.shields.io/codecov/c/github/jagaapple/edge-scroller.svg"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/jagaapple/edge-scroller.svg" alt="license"></a>
 <a href="https://twitter.com/jagaapple_tech"><img src="https://img.shields.io/badge/contact-%40jagaapple_tech-blue.svg" alt="@jagaapple_tech"></a>
 </div>
 
@@ -26,7 +26,7 @@ returnOne(); // 1
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Setup](#setup)
-- [Contributing to template-js](#contributing-to-template-js)
+- [Contributing to edge-scroller](#contributing-to-edge-scroller)
 - [License](#license)
 
 <!-- /TOC -->
@@ -48,22 +48,22 @@ returnOne(); // 1
 
 ### Installation
 ```bash
-$ npm install template-js
+$ npm install edge-scroller
 ```
 
 If you are using Yarn, use the following command.
 
 ```bash
-$ yarn add template-js
+$ yarn add edge-scroller
 ```
 
 ### Setup
 Firstly you have to do.
 
 
-## Contributing to template-js
+## Contributing to edge-scroller
 Bug reports and pull requests are welcome on GitHub at
-[https://github.com/jagaapple/template-js](https://github.com/jagaapple/template-js). This project
+[https://github.com/jagaapple/edge-scroller](https://github.com/jagaapple/edge-scroller). This project
 is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
 [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 

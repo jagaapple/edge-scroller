@@ -1,10 +1,10 @@
 {
-  "name": "template-js",
+  "name": "edge-scroller",
   "version": "0.1.0",
   "description": "The description of this package.",
   "keywords": [],
-  "homepage": "https://github.com/jagaapple/template-js",
-  "bugs": "https://github.com/jagaapple/template-js/issues",
+  "homepage": "https://github.com/jagaapple/edge-scroller",
+  "bugs": "https://github.com/jagaapple/edge-scroller/issues",
   "license": "MIT",
   "author": "Jaga Apple",
   "contributors": [],
@@ -21,7 +21,7 @@
   "man": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jagaapple/template-js.git"
+    "url": "https://github.com/jagaapple/edge-scroller.git"
   },
   "scripts": {
     "prebuild": "rm -rf ./lib",
