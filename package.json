@@ -1,0 +1,61 @@
+{
+  "name": "template-js",
+  "version": "0.1.0",
+  "description": "The description of this package.",
+  "keywords": [],
+  "homepage": "https://github.com/jagaapple/template-js",
+  "bugs": "https://github.com/jagaapple/template-js/issues",
+  "license": "MIT",
+  "author": "Jaga Apple",
+  "contributors": [],
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "main": "lib/index.js",
+  "bin": "",
+  "man": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagaapple/template-js.git"
+  },
+  "scripts": {
+    "prebuild": "rm -rf ./lib",
+    "build": "tsc",
+    "lint": "eslint ./src/**/*.ts",
+    "fix": "eslint --fix ./src/**/*.ts",
+    "prepublishOnly": "npm run build",
+    "test": "jest --coverage",
+    "coverage": "codecov",
+    "clean": "rm -rf ./lib ./coverage"
+  },
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/jest-plugin-context": "^2.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "codecov": "^3.6.1",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "jest-plugin-context": "^2.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "engineStrict": false,
+  "preferGlobal": false,
+  "private": false
+}
