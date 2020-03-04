@@ -1,0 +1,14 @@
+{
+  "name": "edge-scroller-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "edge-scroller": "file:../"
+  },
+  "private": true,
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>edge-scroller Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="./script.ts"></script>
+</head>
+<body>
+  <main class="container pt-4 pb-4">
+    <h1 class="mb-4">edge-scroller Example</h1>
+
+    <button type="button" id="button" class="btn btn-secondary mb-4">Disable</button>
+
+    <div class="card text-center">
+      <div class="card-header">
+        Move the mouse to the edge of the box.
+      </div>
+      <div id="box" class="card-body p-0" style="height: 512px; overflow: scroll;">
+        <img src="./sample.jpg" alt="" width="4088" style="pointer-events: none;">
+      </div>
+      <div class="card-footer text-muted">
+        A photo is taken by <a href="https://www.pakutaso.com" title="フリー写真素材ぱくたそ" target="_blank">フリー写真素材ぱくたそ</a>.
+      </div>
+    </div>
+  </main>
+</body>
+</html>
