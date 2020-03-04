@@ -1,10 +1,10 @@
 {
-  "name": "template-js",
+  "name": "edge-scroller",
   "version": "0.1.0",
-  "description": "The description of this package.",
+  "description": "Automatic scrolling by the pointer for the edge of element.",
   "keywords": [],
-  "homepage": "https://github.com/jagaapple/template-js",
-  "bugs": "https://github.com/jagaapple/template-js/issues",
+  "homepage": "https://github.com/jagaapple/edge-scroller",
+  "bugs": "https://github.com/jagaapple/edge-scroller/issues",
   "license": "MIT",
   "author": "Jaga Apple",
   "contributors": [],
@@ -21,7 +21,7 @@
   "man": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jagaapple/template-js.git"
+    "url": "https://github.com/jagaapple/edge-scroller.git"
   },
   "scripts": {
     "prebuild": "rm -rf ./lib",
@@ -40,6 +40,7 @@
     "@types/jest-plugin-context": "^2.9.2",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
+    "autobind-decorator": "^2.4.0",
     "codecov": "^3.6.5",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.7.0",
