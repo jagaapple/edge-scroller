@@ -5,6 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "declaration": true,
+    "experimentalDecorators": true,
     "jsx": "preserve",
     "lib": [
       "es2020",
