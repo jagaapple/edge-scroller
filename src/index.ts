@@ -92,7 +92,6 @@ export class EdgeScroller<T extends HTMLElement> {
         if (type === "LEFT" || type === "LEFT_TOP" || type === "LEFT_BOTTOM") scrollAmountX = -(offset - x);
 
         const coefficient = this.options.scrollSpeedCoefficient;
-        console.log(scrollAmountX * coefficient, scrollAmountY * coefficient);
         this.targetElement.scrollBy(scrollAmountX * coefficient, scrollAmountY * coefficient);
       }
 
