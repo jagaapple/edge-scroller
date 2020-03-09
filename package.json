@@ -1,8 +1,10 @@
 {
   "name": "edge-scroller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatic scrolling by the pointer for the edge of element.",
-  "keywords": [],
+  "keywords": [
+    "scroll"
+  ],
   "homepage": "https://github.com/jagaapple/edge-scroller",
   "bugs": "https://github.com/jagaapple/edge-scroller/issues",
   "license": "MIT",
@@ -26,7 +28,7 @@
   "scripts": {
     "prebuild": "rm -rf ./lib",
     "build": "tsc",
-    "lint": "eslint ./src/**/*.ts",
+    "lint": "tsc --noEmit && eslint ./src/**/*.ts",
     "fix": "eslint --fix ./src/**/*.ts",
     "prepublishOnly": "npm run build",
     "test": "jest --coverage",
@@ -34,13 +36,14 @@
     "clean": "rm -rf ./lib ./coverage"
   },
   "config": {},
-  "dependencies": {},
+  "dependencies": {
+    "autobind-decorator": "^2.4.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/jest-plugin-context": "^2.9.2",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
-    "autobind-decorator": "^2.4.0",
     "codecov": "^3.6.5",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.7.0",
