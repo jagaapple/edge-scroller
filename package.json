@@ -1,6 +1,6 @@
 {
   "name": "edge-scroller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatic scrolling by the pointer for the edge of element.",
   "keywords": [],
   "homepage": "https://github.com/jagaapple/edge-scroller",
